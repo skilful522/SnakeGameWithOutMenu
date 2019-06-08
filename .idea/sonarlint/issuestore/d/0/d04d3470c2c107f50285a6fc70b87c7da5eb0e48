@@ -1,0 +1,48 @@
+
+Asquid:S1068"'Remove this unused "dot" private field.(Í‰ýÆþÿÿÿÿ
+Bsquid:S1068"(Remove this unused "dot2" private field.(£êó¹øÿÿÿÿ
+Csquid:S1068")Remove this unused "check" private field.(ã’“ˆûÿÿÿÿ
+lsquid:S1450"RRemove the "dot" field and declare it as a local variable in the relevant methods.(Í‰ýÆþÿÿÿÿ
+msquid:S1450"SRemove the "dot2" field and declare it as a local variable in the relevant methods.(£êó¹øÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÛÔƒì
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ŒÛò§ùÿÿÿÿ
+_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‘‘‹
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‘”†Ûÿÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(«…—§
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¥ÃÑýÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Áƒ˜¹þÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¶å»…
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ãÉÕÌ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¤‡þìøÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ýÿƒ¸
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(³—½ˆüÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(³—½ˆüÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Úèü‡þÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(½‡±³
+L
+squid:S106"9Replace this use of System.out or System.err by a logger.(°û³1
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(â•¸ÿ
+Csquid:S1125")Remove the literal "false" boolean value.(øÚ­Éûÿÿÿÿ
+fsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(Ý¼õA
+6squid:S1170"!Make this final field static too.(„…ò´
+;squid:S1170"!Make this final field static too.(üÑÖ›øÿÿÿÿ
+5squid:S1170"!Make this final field static too.(ÁÉr
+Msquid:S1854"8Remove this useless assignment to local variable "head".(’×äž
+Dsquid:S2387"*"x" is the name of a field in "Component".(¬ó§Ùøÿÿÿÿ
+?squid:S2387"*"y" is the name of a field in "Component".(×›—Ã
+esquid:S00116"ORename this field "SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„…ò´
+nsquid:S00116"SRename this field "DOT_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üÑÖ›øÿÿÿÿ
+hsquid:S00116"SRename this field "ALL_DOTS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÉr
+Asquid:S1948",Make "backGround" transient or serializable.(®¥Çñ
+?squid:S1948"%Make "dot" transient or serializable.(Í‰ýÆþÿÿÿÿ
+@squid:S1948"&Make "dot2" transient or serializable.(£êó¹øÿÿÿÿ
+@squid:S1948"+Make "bodyImage" transient or serializable.(ßØÆþ
+<squid:S1948"'Make "apple" transient or serializable.(Í»¨â
+Asquid:S1948",Make "waterImage" transient or serializable.(³Ë»Í
+Jsquid:S1948"0Make "headRightImage" transient or serializable.(ñ‹äÔøÿÿÿÿ
+Dsquid:S1948"/Make "headLeftImage" transient or serializable.(„îäö
+Bsquid:S1948"-Make "headUpImage" transient or serializable.(µ­µÐ
+Dsquid:S1948"/Make "headDownImage" transient or serializable.(¤úÖ€
