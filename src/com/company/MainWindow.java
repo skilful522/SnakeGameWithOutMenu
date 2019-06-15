@@ -15,7 +15,6 @@ public class MainWindow extends JFrame {
         window.setSize(320, 345);
         window.setLocation((1366/2)-150,(768/2)-150);
         window.getContentPane().add(startGame,BorderLayout.CENTER);
-        //starGame.setSize(200,200);
         startGame.addActionListener(new StartGame());
         window.setUndecorated(true);
         window.pack();

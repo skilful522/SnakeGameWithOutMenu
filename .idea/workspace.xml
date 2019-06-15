@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72968e22-1ef7-48a4-b4b7-a6866fa0aa8f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/company/GameField$FieldKeyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/com/company/GameField$FieldKeyListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/company/GameField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/com/company/GameField.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/company/MainWindow$StartGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/com/company/MainWindow$StartGame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/company/MainWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/com/company/MainWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Game.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/GameField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/GameField.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MainWindow.java" afterDir="false" />
     </list>
@@ -18,18 +18,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/MainWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-195">
-              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            <state relative-caret-position="272">
+              <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#actionPerformed#0;class#StartGame#0;class#MainWindow#0" />
               </folding>
             </state>
           </provider>
@@ -38,12 +38,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/GameField.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+            <state relative-caret-position="17">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1685#1855#0" />
-                <element signature="e#3170#4319#0" />
               </folding>
             </state>
           </provider>
@@ -82,7 +80,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="690" />
+    <option name="x" value="305" />
+    <option name="y" value="58" />
     <option name="width" value="697" />
     <option name="height" value="768" />
   </component>
@@ -93,7 +92,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,7 +115,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,11 +213,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Learn" order="0" weight="0.32980332" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.31240544" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.15960665" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -261,13 +260,7 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/javax/swing/AbstractButton.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/awt/Component.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/javax/swing/JComponent.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="254" column="2" selection-start-line="254" selection-start-column="2" selection-end-line="254" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game.java" />
     <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.desktop/java/awt/Component.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -277,22 +270,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/GameField.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        <state relative-caret-position="17">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1685#1855#0" />
-            <element signature="e#3170#4319#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/MainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-195">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        <state relative-caret-position="272">
+          <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#actionPerformed#0;class#StartGame#0;class#MainWindow#0" />
           </folding>
         </state>
       </provider>

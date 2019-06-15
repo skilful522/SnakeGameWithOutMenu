@@ -8,7 +8,6 @@ import java.awt.event.*;
 import java.io.File;
 import java.util.Random;
 
-import static java.awt.event.KeyEvent.*;
 
 public class GameField extends JPanel implements ActionListener {
 
