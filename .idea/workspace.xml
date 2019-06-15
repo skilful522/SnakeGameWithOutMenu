@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="72968e22-1ef7-48a4-b4b7-a6866fa0aa8f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Background.png" beforeDir="false" afterPath="$PROJECT_DIR$/Background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/company/GameField$FieldKeyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/com/company/GameField$FieldKeyListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/company/GameField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/com/company/GameField.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/company/MainWindow$StartGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/com/company/MainWindow$StartGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/company/MainWindow$StartGame.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/company/MainWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/com/company/MainWindow.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/GameField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/GameField.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MainWindow.java" afterDir="false" />
@@ -25,11 +28,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/MainWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#actionPerformed#0;class#StartGame#0;class#MainWindow#0" />
               </folding>
             </state>
           </provider>
@@ -38,10 +40,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/GameField.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="-2286">
+              <caret line="100" selection-start-line="100" selection-end-line="100" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#checkApple#0;class#GameField#0" />
+                <element signature="method#checkCollissions#0;class#GameField#0" />
               </folding>
             </state>
           </provider>
@@ -65,8 +69,8 @@
         <option value="$PROJECT_DIR$/src/com/company/SnakeGame.java" />
         <option value="$PROJECT_DIR$/src/com/company/GameButtons.java" />
         <option value="$PROJECT_DIR$/src/com/company/Game.java" />
-        <option value="$PROJECT_DIR$/src/com/company/GameField.java" />
         <option value="$PROJECT_DIR$/src/com/company/MainWindow.java" />
+        <option value="$PROJECT_DIR$/src/com/company/GameField.java" />
       </list>
     </option>
   </component>
@@ -79,7 +83,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="305" />
     <option name="y" value="58" />
     <option name="width" value="697" />
@@ -268,23 +272,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/snakeBody.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SnakeGame.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snakeHeadDown.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snakeHeadLeft.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snakeHeadRight.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snakeHeadUp.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/water.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apple.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apple2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dot.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ground.bmp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ground.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dot2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Background.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/GameField.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="-2286">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#checkApple#0;class#GameField#0" />
+            <element signature="method#checkCollissions#0;class#GameField#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/MainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#actionPerformed#0;class#StartGame#0;class#MainWindow#0" />
           </folding>
         </state>
       </provider>

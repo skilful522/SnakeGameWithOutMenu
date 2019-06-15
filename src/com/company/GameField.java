@@ -15,15 +15,13 @@ public class GameField extends JPanel implements ActionListener {
     private final int DOT_SIZE = 32;
     private final int ALL_DOTS = 1764;
     private Image backGround;
-    private Image dot;
-    private Image dot2;
     private Image bodyImage;
+    private Image dot;
+    private boolean pause;
     private Image apple;
     private Image waterImage;
     private int appleX;
     private int appleY;
-    private boolean check = false;
-    private boolean pause = false;
 
     //snake's head images
     private Image headRightImage;
@@ -31,7 +29,7 @@ public class GameField extends JPanel implements ActionListener {
     private Image headUpImage;
     private Image headDownImage;
 
-    //snake 1
+    //snake
     private int[] x = new int[ALL_DOTS];
     private int[] y = new int[ALL_DOTS];
     private int dots;
@@ -46,12 +44,11 @@ public class GameField extends JPanel implements ActionListener {
     private int delay = 250;
 
     public GameField() {
-        playMusic();
         loadImage();
+        //playMusic();
         initGame();
         addKeyListener(new FieldKeyListener());
-        this.setFocusable(true);
-        this.requestFocus();
+        setFocusable(true);
     }
 
     public void playMusic() {
@@ -66,7 +63,6 @@ public class GameField extends JPanel implements ActionListener {
             x[i] = 160 - i * DOT_SIZE;
             y[i] = 160;
         }
-
         timer = new Timer(delay, this);
         timer.start();
         createApple();
@@ -74,18 +70,10 @@ public class GameField extends JPanel implements ActionListener {
 
     public void creatSnake() {
         dots = 3;
-
-        int head = new Random().nextInt(200);
-
-        if (head == 0) {
-            head = 64;
-        }
-
         for (int i = 0; i < dots; i++) {
             x[i] = 96 - i * DOT_SIZE;
             y[i] = 96;
         }
-
     }
 
     public void createApple() {
@@ -110,8 +98,6 @@ public class GameField extends JPanel implements ActionListener {
         apple = iia.getImage();
         ImageIcon iid = new ImageIcon("dot.png");
         dot = iid.getImage();
-        ImageIcon iid2 = new ImageIcon("dot2.png");
-        dot2 = iid2.getImage();
 
         ImageIcon imageIconBody = new ImageIcon("snakeBody.png");
         bodyImage = imageIconBody.getImage();
@@ -136,6 +122,7 @@ public class GameField extends JPanel implements ActionListener {
         super.paintComponent(g);
         g.drawImage(backGround, 0, 0, 1350, 752, this);
         if (inGame) {
+            g.drawRect(1334,736,32,32);
             g.drawImage(apple, appleX, appleY, 32, 32, this);
             if (right){
                 g.drawImage(headRightImage, x[0], y[0], 32, 32, this);
@@ -151,14 +138,17 @@ public class GameField extends JPanel implements ActionListener {
                 g.drawImage(bodyImage, x[i], y[i], 32, 32, this);
             }
 
-            for (int i = 0; i < 1350; i++) {
-
-                g.drawImage(waterImage, i, 0, 32, 32, this);
-                g.drawImage(waterImage, 0, i, 32, 32, this);
-                g.drawImage(waterImage, 1350, i, 32, 32, this);
-                g.drawImage(waterImage, i, 736, 32, 32, this);
-
+            for (int i = 1; i < dots; i++) {
+                g.drawImage(bodyImage, x[i], y[i], 32, 32, this);
             }
+
+            for (int i = 0; i < 1334 ; i = i + 32) {
+                g.drawImage(waterImage,0,i,32,32,this);
+                g.drawImage(waterImage,i,0,32,32,this);
+                g.drawImage(waterImage,1334,i,32,32,this);
+                g.drawImage(waterImage,i,736,32,32,this);
+            }
+
 
         } else {
             super.paintComponent(g);
@@ -210,9 +200,9 @@ public class GameField extends JPanel implements ActionListener {
     }
 
     public void checkCollissions() {
+
         for (int i = dots; i > 0; i--) {
             if (i > 3 && x[0] == x[i] && y[0] == y[i]) {
-
                 dots = 3;
             }
         }
@@ -264,7 +254,6 @@ public class GameField extends JPanel implements ActionListener {
                 up = false;
                 left = false;
                 down = false;
-                System.out.println("space");
                 creatSnake();
                 createApple();
                 repaint();
@@ -274,25 +263,21 @@ public class GameField extends JPanel implements ActionListener {
                 left = true;
                 up = false;
                 down = false;
-                System.out.println("left");
             }
             if (key == KeyEvent.VK_RIGHT && !left) {
                 right = true;
                 up = false;
                 down = false;
-                System.out.println("right");
             }
             if (key == KeyEvent.VK_UP && !down) {
                 up = true;
                 left = false;
                 right = false;
-                System.out.println("up");
             }
             if (key == KeyEvent.VK_DOWN && !up) {
                 down = true;
                 right = false;
                 left = false;
-                System.out.println("down");
             }
         }
     }
