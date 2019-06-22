@@ -1,4 +1,4 @@
-package com.company;
+package com.horizon;
 
 import javax.swing.*;
 import java.awt.*;
@@ -9,8 +9,8 @@ public class MainWindow extends JFrame {
     private JFrame window = new JFrame();
 
     public MainWindow() {
-        window.setSize(320, 345);
-        window.setLocation((1366/2)-150,(768/2)-150);
+        window.setName("Snake");
+        window.setSize(MAXIMIZED_HORIZ,MAXIMIZED_VERT);
         window.add(new GameField());
         window.setUndecorated(true);
         window.setExtendedState(JFrame.MAXIMIZED_BOTH);

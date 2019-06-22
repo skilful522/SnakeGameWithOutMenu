@@ -1,17 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SnakeGame:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="72968e22-1ef7-48a4-b4b7-a6866fa0aa8f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SnakeGame_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/ground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/Minecraft_Theme_Sweden_Calm.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skins/blueSnakeBody.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skins/blueSnakeHeadDown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skins/blueSnakeHeadLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skins/blueSnakeHeadRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skins/blueSnakeHeadUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/horizon/GameField.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Background.png" beforeDir="false" afterPath="$PROJECT_DIR$/Background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/company/GameField$FieldKeyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/com/company/GameField$FieldKeyListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/company/GameField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/com/company/GameField.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/company/MainWindow$StartGame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/company/MainWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/com/company/MainWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/GameField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/GameField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MainWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minecraft_Theme_Sweden_Calm.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apple2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/company/GameField$FieldKeyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/company/GameField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/company/MainWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snakeBody.png" beforeDir="false" afterPath="$PROJECT_DIR$/skins/snakeBody.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snakeHeadDown.png" beforeDir="false" afterPath="$PROJECT_DIR$/skins/snakeHeadDown.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snakeHeadLeft.png" beforeDir="false" afterPath="$PROJECT_DIR$/skins/snakeHeadLeft.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snakeHeadRight.png" beforeDir="false" afterPath="$PROJECT_DIR$/skins/snakeHeadRight.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snakeHeadUp.png" beforeDir="false" afterPath="$PROJECT_DIR$/skins/snakeHeadUp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/GameField.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/horizon/MainWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/water.png" beforeDir="false" afterPath="$PROJECT_DIR$/background/water.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/MainWindow.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/horizon/MainWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="-62">
+              <caret column="20" selection-start-column="20" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,15 +58,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/GameField.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/horizon/GameField.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2286">
-              <caret line="100" selection-start-line="100" selection-end-line="100" />
+            <state relative-caret-position="200">
+              <caret line="422" column="49" lean-forward="true" selection-start-line="422" selection-start-column="49" selection-end-line="422" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#checkApple#0;class#GameField#0" />
-                <element signature="method#checkCollissions#0;class#GameField#0" />
               </folding>
             </state>
           </provider>
@@ -69,8 +88,13 @@
         <option value="$PROJECT_DIR$/src/com/company/SnakeGame.java" />
         <option value="$PROJECT_DIR$/src/com/company/GameButtons.java" />
         <option value="$PROJECT_DIR$/src/com/company/Game.java" />
+        <option value="$PROJECT_DIR$/src/com/company/MyTimerTask.java" />
         <option value="$PROJECT_DIR$/src/com/company/MainWindow.java" />
         <option value="$PROJECT_DIR$/src/com/company/GameField.java" />
+        <option value="$PROJECT_DIR$/src/com/horizon/Game/GameField.java" />
+        <option value="$PROJECT_DIR$/src/com/horizon/Main/MainWindow.java" />
+        <option value="$PROJECT_DIR$/src/com/horizon/MainWindow.java" />
+        <option value="$PROJECT_DIR$/src/com/horizon/GameField.java" />
       </list>
     </option>
   </component>
@@ -83,14 +107,15 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="305" />
-    <option name="y" value="58" />
-    <option name="width" value="697" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="107" />
+    <option name="y" value="8" />
+    <option name="width" value="683" />
     <option name="height" value="768" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
       <autoscrollToSource ProjectPane="true" />
       <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
@@ -107,13 +132,23 @@
             <path>
               <item name="SnakeGame" type="b2602c69:ProjectViewProjectNode" />
               <item name="SnakeGame" type="462c0819:PsiDirectoryNode" />
+              <item name="background" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SnakeGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SnakeGame" type="462c0819:PsiDirectoryNode" />
+              <item name="eat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SnakeGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SnakeGame" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SnakeGame" type="b2602c69:ProjectViewProjectNode" />
               <item name="SnakeGame" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="horizon" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -126,16 +161,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jaco-mp3-player-0.9.3/jaco-mp3-player-0.9.3.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/skins" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Horizon\Desktop\проекты\SnakeGame\skins" />
+      <recent name="C:\Users\Horizon\Desktop\проекты\SnakeGame\src\com\company\fonts" />
+      <recent name="C:\Users\Horizon\Desktop\проекты\SnakeGame\src\com\company\music" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ASUS\SnakeGame\src\com" />
-      <recent name="C:\Users\ASUS\SnakeGame" />
+      <recent name="C:\Users\Horizon\Desktop\проекты\SnakeGame\eat" />
+      <recent name="C:\Users\Horizon\Desktop\проекты\SnakeGame\background" />
+      <recent name="C:\Users\Horizon\Desktop\проекты\SnakeGame\fonts" />
+      <recent name="C:\Users\Horizon\Desktop\проекты\SnakeGame\music" />
+      <recent name="C:\Users\Horizon\Desktop\проекты\SnakeGame" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -151,21 +194,15 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="MainWindow" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.MainWindow" />
+    <configuration name="MainWindow" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.horizon.MainWindow" />
       <module name="SnakeGame" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.MainWindow" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -217,11 +254,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Learn" order="0" weight="0.32980332" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.15960665" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22012103" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -229,18 +266,18 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.28089887" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4924357" visible="true" weight="0.23466258" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.398773" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49848714" weight="0.28067484" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6096823" visible="true" weight="0.2392638" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49394855" weight="0.17177914" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297546" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.3297546" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="SonarLint" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3297546" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5075643" side_tool="true" weight="0.23466258" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4977307" weight="0.32668713" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32055214" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.3903177" side_tool="true" visible="true" weight="0.2392638" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.48940998" weight="0.32668713" />
       <window_info anchor="right" id="Maven" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -272,64 +309,152 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/snakeBody.png">
+    <entry file="file://$PROJECT_DIR$/dot.png" />
+    <entry file="file://$PROJECT_DIR$/ground.bmp" />
+    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/snakeHeadLeft.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SnakeGame.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snakeHeadDown.png">
+    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/snakeHeadRight.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/snakeHeadLeft.png">
+    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/blueSnakeHeadDown.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/snakeHeadRight.png">
+    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/blueSnakeHeadLeft.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/snakeHeadUp.png">
+    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/blueSnakeHeadUp.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/water.png">
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.desktop/java/awt/Font.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1220" column="23" selection-start-line="1220" selection-start-column="23" selection-end-line="1220" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.desktop/javax/swing/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1989">
+          <caret line="150" column="13" selection-start-line="150" selection-start-column="13" selection-end-line="150" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.desktop/java/awt/event/ActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.desktop/java/awt/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="995" column="16" selection-start-line="995" selection-start-column="16" selection-end-line="995" selection-end-column="16" />
+          <folding>
+            <element signature="e#38207#38208#0" expanded="true" />
+            <element signature="e#38253#38254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/security/ProtectionDomain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="84" column="36" selection-start-line="84" selection-start-column="36" selection-end-line="84" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="300" column="30" selection-start-line="300" selection-start-column="30" selection-end-line="300" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.desktop/java/awt/image/ImageObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="98" column="28" selection-start-line="98" selection-start-column="28" selection-end-line="98" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/blueSnakeHeadRight.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/apple.png">
+    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/blueSnakeBody.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/apple2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dot.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ground.bmp">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ground.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/dot2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Background.png">
+    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/snakeBody.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/GameField.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/MyTimerTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2286">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        <state relative-caret-position="85">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#checkApple#0;class#GameField#0" />
-            <element signature="method#checkCollissions#0;class#GameField#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/MainWindow.java">
+    <entry file="file://$PROJECT_DIR$/Background.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/snakeHeadDown.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/snakeHeadUp.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/horizon/fonts/SF Buttacup.ttf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts/SF Buttacup.ttf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eat/apple.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SnakeGame.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eat/surprise.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/background/water.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/background/ground.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/horizon/MainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="-62">
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.desktop/java/awt/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="148" column="15" selection-start-line="148" selection-start-column="15" selection-end-line="148" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/horizon/GameField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="422" column="49" lean-forward="true" selection-start-line="422" selection-start-column="49" selection-end-line="422" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -342,10 +467,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>SnakeGame:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -393,7 +520,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
