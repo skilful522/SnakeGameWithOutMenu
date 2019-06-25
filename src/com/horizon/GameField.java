@@ -86,7 +86,7 @@ public class GameField extends JPanel implements ActionListener {
     }
 
     public void playMusic() {
-        mp3Player.addToPlayList(new File("out/res/music/Minecraft_Theme_Sweden_Calm.mp3"));
+        mp3Player.addToPlayList(new File("res/music/Minecraft_Theme_Sweden_Calm.mp3"));
         mp3Player.play();
         mp3Player.setRepeat(true);
     }
@@ -209,41 +209,41 @@ public class GameField extends JPanel implements ActionListener {
     }
 
     public void loadImage() {
-        ImageIcon iibackground = new ImageIcon("out/res/background/Background.png");
+        ImageIcon iibackground = new ImageIcon("res/background/Background.png");
         backGround = iibackground.getImage();
-        ImageIcon iia = new ImageIcon("out/res/eat/apple.png");
+        ImageIcon iia = new ImageIcon("res/eat/apple.png");
         apple = iia.getImage();
 
-        ImageIcon imageIconGround = new ImageIcon("out/res/background/ground.png");
+        ImageIcon imageIconGround = new ImageIcon("res/background/ground.png");
         ground = imageIconGround.getImage();
 
-        ImageIcon imageIconSurprise = new ImageIcon("out/res/eat/surprise.png");
+        ImageIcon imageIconSurprise = new ImageIcon("res/eat/surprise.png");
         surprise = imageIconSurprise.getImage();
 
-        ImageIcon imageIconBody = new ImageIcon("out/res/skins/snakeBody.png");
+        ImageIcon imageIconBody = new ImageIcon("res/skins/snakeBody.png");
         bodyImage = imageIconBody.getImage();
-        ImageIcon imageIconWater = new ImageIcon("out/res/background/water.png");
+        ImageIcon imageIconWater = new ImageIcon("res/background/water.png");
         waterImage = imageIconWater.getImage();
 
         // snake heads
-        ImageIcon imageIconHeadRight = new ImageIcon("out/res/skins/snakeHeadRight.png");
+        ImageIcon imageIconHeadRight = new ImageIcon("res/skins/snakeHeadRight.png");
         headRightImage = imageIconHeadRight.getImage();
-        ImageIcon imageIconHeadLeft = new ImageIcon("out/res/skins/snakeHeadLeft.png");
+        ImageIcon imageIconHeadLeft = new ImageIcon("res/skins/snakeHeadLeft.png");
         headLeftImage = imageIconHeadLeft.getImage();
-        ImageIcon imageIconHeadUp = new ImageIcon("out/res/skins/snakeHeadUp.png");
+        ImageIcon imageIconHeadUp = new ImageIcon("res/skins/snakeHeadUp.png");
         headUpImage = imageIconHeadUp.getImage();
-        ImageIcon imageIconHeadDown = new ImageIcon("out/res/skins/snakeHeadDown.png");
+        ImageIcon imageIconHeadDown = new ImageIcon("res/skins/snakeHeadDown.png");
         headDownImage = imageIconHeadDown.getImage();
 
-        ImageIcon imageIconBlueHeadRight = new ImageIcon("out/res/skins/blueSnakeHeadRight.png");
+        ImageIcon imageIconBlueHeadRight = new ImageIcon("res/skins/blueSnakeHeadRight.png");
         blueHeadRightImage = imageIconBlueHeadRight.getImage();
-        ImageIcon imageIconBlueHeadLeft = new ImageIcon("out/res/skins/blueSnakeHeadLeft.png");
+        ImageIcon imageIconBlueHeadLeft = new ImageIcon("res/skins/blueSnakeHeadLeft.png");
         blueHeadLeftImage = imageIconBlueHeadLeft.getImage();
-        ImageIcon imageIconBlueHeadUp = new ImageIcon("out/res/skins/blueSnakeHeadUp.png");
+        ImageIcon imageIconBlueHeadUp = new ImageIcon("res/skins/blueSnakeHeadUp.png");
         blueHeadUpImage = imageIconBlueHeadUp.getImage();
-        ImageIcon imageIconBlueHeadDown = new ImageIcon("out/res/skins/blueSnakeHeadDown.png");
+        ImageIcon imageIconBlueHeadDown = new ImageIcon("res/skins/blueSnakeHeadDown.png");
         blueHeadDownImage = imageIconBlueHeadDown.getImage();
-        ImageIcon imageIconBlueSnakeBody = new ImageIcon("out/res/skins/blueSnakeBody.png");
+        ImageIcon imageIconBlueSnakeBody = new ImageIcon("res/skins/blueSnakeBody.png");
         blueSnakeBodyImage = imageIconBlueSnakeBody.getImage();
 
     }
@@ -292,9 +292,9 @@ public class GameField extends JPanel implements ActionListener {
         g.drawImage(backGround, 0, 0, width, height, this);
 
         try {
-            buttacup = Font.createFont(Font.TRUETYPE_FONT, new File("out/res/fonts/SF Buttacup.ttf")).deriveFont(30f);
+            buttacup = Font.createFont(Font.TRUETYPE_FONT, new File("res/fonts/SF Buttacup.ttf")).deriveFont(30f);
             GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
-            ge.registerFont(Font.createFont(Font.TRUETYPE_FONT, new File("out/res/fonts/SF Buttacup.ttf")));
+            ge.registerFont(Font.createFont(Font.TRUETYPE_FONT, new File("res/fonts/SF Buttacup.ttf")));
         } catch (FontFormatException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -407,7 +407,7 @@ public class GameField extends JPanel implements ActionListener {
             scoreLabel.setText("Your Score" + " is " + eaten);
             delay = 250;
             try {
-                buttacup = Font.createFont(Font.TRUETYPE_FONT, new File("out/res/fonts/SF Buttacup.ttf")).deriveFont(75f);
+                buttacup = Font.createFont(Font.TRUETYPE_FONT, new File("res/fonts/SF Buttacup.ttf")).deriveFont(75f);
             } catch (FontFormatException e) {
                 e.printStackTrace();
             } catch (IOException e) {
