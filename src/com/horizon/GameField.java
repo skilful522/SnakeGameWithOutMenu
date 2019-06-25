@@ -14,9 +14,9 @@ import java.awt.event.ActionEvent;
 
 public class GameField extends JPanel implements ActionListener {
 
-    Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-    int width = (int) screenSize.getWidth();
-    int height = (int) screenSize.getHeight();
+    private Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+    private int width = (int) screenSize.getWidth();
+    private int height = (int) screenSize.getHeight();
     private final int SIZE = width;
     private final int DOT_SIZE = 32;
     private final int ALL_DOTS = (int) Math.pow(SIZE / DOT_SIZE, 2);
@@ -52,7 +52,7 @@ public class GameField extends JPanel implements ActionListener {
     private Image blueHeadDownImage;
     private Image blueSnakeBodyImage;
 
-    //snake
+
     private int[] x = new int[ALL_DOTS];
     private int[] y = new int[ALL_DOTS];
     private int dots;
@@ -78,7 +78,7 @@ public class GameField extends JPanel implements ActionListener {
 
     public GameField() {
         loadImage();
-        // playMusic();
+        playMusic();
         initScoreLabel();
         initGame();
         addKeyListener(new FieldKeyListener());
@@ -86,7 +86,7 @@ public class GameField extends JPanel implements ActionListener {
     }
 
     public void playMusic() {
-        mp3Player.addToPlayList(new File("music/Minecraft_Theme_Sweden_Calm.mp3"));
+        mp3Player.addToPlayList(new File("out/res/music/Minecraft_Theme_Sweden_Calm.mp3"));
         mp3Player.play();
         mp3Player.setRepeat(true);
     }
@@ -209,41 +209,41 @@ public class GameField extends JPanel implements ActionListener {
     }
 
     public void loadImage() {
-        ImageIcon iibackground = new ImageIcon("background/Background.png");
+        ImageIcon iibackground = new ImageIcon("out/res/background/Background.png");
         backGround = iibackground.getImage();
-        ImageIcon iia = new ImageIcon("eat/apple.png");
+        ImageIcon iia = new ImageIcon("out/res/eat/apple.png");
         apple = iia.getImage();
 
-        ImageIcon imageIconGround = new ImageIcon("background/ground.png");
+        ImageIcon imageIconGround = new ImageIcon("out/res/background/ground.png");
         ground = imageIconGround.getImage();
 
-        ImageIcon imageIconSurprise = new ImageIcon("eat/surprise.png");
+        ImageIcon imageIconSurprise = new ImageIcon("out/res/eat/surprise.png");
         surprise = imageIconSurprise.getImage();
 
-        ImageIcon imageIconBody = new ImageIcon("skins/snakeBody.png");
+        ImageIcon imageIconBody = new ImageIcon("out/res/skins/snakeBody.png");
         bodyImage = imageIconBody.getImage();
-        ImageIcon imageIconWater = new ImageIcon("background/water.png");
+        ImageIcon imageIconWater = new ImageIcon("out/res/background/water.png");
         waterImage = imageIconWater.getImage();
 
         // snake heads
-        ImageIcon imageIconHeadRight = new ImageIcon("skins/snakeHeadRight.png");
+        ImageIcon imageIconHeadRight = new ImageIcon("out/res/skins/snakeHeadRight.png");
         headRightImage = imageIconHeadRight.getImage();
-        ImageIcon imageIconHeadLeft = new ImageIcon("skins/snakeHeadLeft.png");
+        ImageIcon imageIconHeadLeft = new ImageIcon("out/res/skins/snakeHeadLeft.png");
         headLeftImage = imageIconHeadLeft.getImage();
-        ImageIcon imageIconHeadUp = new ImageIcon("skins/snakeHeadUp.png");
+        ImageIcon imageIconHeadUp = new ImageIcon("out/res/skins/snakeHeadUp.png");
         headUpImage = imageIconHeadUp.getImage();
-        ImageIcon imageIconHeadDown = new ImageIcon("skins/snakeHeadDown.png");
+        ImageIcon imageIconHeadDown = new ImageIcon("out/res/skins/snakeHeadDown.png");
         headDownImage = imageIconHeadDown.getImage();
 
-        ImageIcon imageIconBlueHeadRight = new ImageIcon("skins/blueSnakeHeadRight.png");
+        ImageIcon imageIconBlueHeadRight = new ImageIcon("out/res/skins/blueSnakeHeadRight.png");
         blueHeadRightImage = imageIconBlueHeadRight.getImage();
-        ImageIcon imageIconBlueHeadLeft = new ImageIcon("skins/blueSnakeHeadLeft.png");
+        ImageIcon imageIconBlueHeadLeft = new ImageIcon("out/res/skins/blueSnakeHeadLeft.png");
         blueHeadLeftImage = imageIconBlueHeadLeft.getImage();
-        ImageIcon imageIconBlueHeadUp = new ImageIcon("skins/blueSnakeHeadUp.png");
+        ImageIcon imageIconBlueHeadUp = new ImageIcon("out/res/skins/blueSnakeHeadUp.png");
         blueHeadUpImage = imageIconBlueHeadUp.getImage();
-        ImageIcon imageIconBlueHeadDown = new ImageIcon("skins/blueSnakeHeadDown.png");
+        ImageIcon imageIconBlueHeadDown = new ImageIcon("out/res/skins/blueSnakeHeadDown.png");
         blueHeadDownImage = imageIconBlueHeadDown.getImage();
-        ImageIcon imageIconBlueSnakeBody = new ImageIcon("skins/blueSnakeBody.png");
+        ImageIcon imageIconBlueSnakeBody = new ImageIcon("out/res/skins/blueSnakeBody.png");
         blueSnakeBodyImage = imageIconBlueSnakeBody.getImage();
 
     }
@@ -292,9 +292,9 @@ public class GameField extends JPanel implements ActionListener {
         g.drawImage(backGround, 0, 0, width, height, this);
 
         try {
-            buttacup = Font.createFont(Font.TRUETYPE_FONT, new File("fonts/SF Buttacup.ttf")).deriveFont(30f);
+            buttacup = Font.createFont(Font.TRUETYPE_FONT, new File("out/res/fonts/SF Buttacup.ttf")).deriveFont(30f);
             GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
-            ge.registerFont(Font.createFont(Font.TRUETYPE_FONT, new File("fonts/SF Buttacup.ttf")));
+            ge.registerFont(Font.createFont(Font.TRUETYPE_FONT, new File("out/res/fonts/SF Buttacup.ttf")));
         } catch (FontFormatException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -388,7 +388,7 @@ public class GameField extends JPanel implements ActionListener {
             for (int i = 0; i < width; i = i + 32) {
                 g.drawImage(waterImage, 0, i, 32, 32, this);
                 g.drawImage(waterImage, i, 0, 32, 32, this);
-                g.drawImage(waterImage, width - 32, i, 32, 32, this);
+                g.drawImage(waterImage, width - 24, i, 32, 32, this);
                 g.drawImage(waterImage, i, height - 32, 32, 32, this);
             }
 
@@ -407,38 +407,34 @@ public class GameField extends JPanel implements ActionListener {
             scoreLabel.setText("Your Score" + " is " + eaten);
             delay = 250;
             try {
-                buttacup = Font.createFont(Font.TRUETYPE_FONT, new File("fonts/SF Buttacup.ttf")).deriveFont(75f);
+                buttacup = Font.createFont(Font.TRUETYPE_FONT, new File("out/res/fonts/SF Buttacup.ttf")).deriveFont(75f);
             } catch (FontFormatException e) {
                 e.printStackTrace();
             } catch (IOException e) {
                 e.printStackTrace();
             }
             g.setFont(buttacup);
-            //g.setColor(Color.RED);
             gameOverLable.setForeground(Color.RED);
             gameOverLable.setFont(buttacup);
             gameOverLable.setText(str);
             gameOverLable.setHorizontalAlignment(gameOverLable.CENTER);
+            gameOverLable.setPreferredSize(new Dimension(0,300));
             infoPanel.setBackground(Color.black);
             infoPanel.add(gameOverLable,BorderLayout.NORTH);
             restartLable.setForeground(Color.YELLOW);
             restartLable.setFont(buttacup);
             restartLable.setText(strRestart);
             restartLable.setHorizontalAlignment(restartLable.CENTER);
+            restartLable.setPreferredSize(new Dimension(0,300));
             infoPanel.add(restartLable,BorderLayout.CENTER);
             escLable.setForeground(Color.GREEN);
             escLable.setFont(buttacup);
             escLable.setText(strQuite);
             escLable.setHorizontalAlignment(restartLable.CENTER);
+            escLable.setPreferredSize(new Dimension(0,250));
             infoPanel.add(escLable, BorderLayout.SOUTH);
             add(infoPanel,BorderLayout.CENTER);
-            //gameOver.setHorizontalAlignment(JLabel.CENTER);
 
-            //g.drawString(str, width / 6, (height / 2) - 100);
-            //g.setColor(Color.YELLOW);
-            //g.drawString(strRestart, width / 6, height / 2);
-            //g.setColor(Color.GREEN);
-            //g.drawString(strQuite, width / 6, (height / 2) + 100);
         }
     }
 
@@ -480,7 +476,7 @@ public class GameField extends JPanel implements ActionListener {
 
         for (int i = dots; i > 0; i--) {
             if (i > 3 && x[0] == x[i] && y[0] == y[i]) {
-                dots = 3;
+                inGame = false;
             }
         }
 
@@ -527,6 +523,7 @@ public class GameField extends JPanel implements ActionListener {
                 up = false;
                 left = false;
                 down = false;
+                remove(infoPanel);
                 scoreLabel.setText(null);
                 timerLabel.setText(null);
                 secondsPlayed = 0;

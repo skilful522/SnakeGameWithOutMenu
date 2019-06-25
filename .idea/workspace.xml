@@ -7,32 +7,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72968e22-1ef7-48a4-b4b7-a6866fa0aa8f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SnakeGame_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/background/ground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/Minecraft_Theme_Sweden_Calm.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skins/blueSnakeBody.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skins/blueSnakeHeadDown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skins/blueSnakeHeadLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skins/blueSnakeHeadRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skins/blueSnakeHeadUp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/horizon/GameField.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minecraft_Theme_Sweden_Calm.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apple2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ground.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/company/GameField$FieldKeyListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/company/GameField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/company/MainWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/snakeBody.png" beforeDir="false" afterPath="$PROJECT_DIR$/skins/snakeBody.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snakeHeadDown.png" beforeDir="false" afterPath="$PROJECT_DIR$/skins/snakeHeadDown.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snakeHeadLeft.png" beforeDir="false" afterPath="$PROJECT_DIR$/skins/snakeHeadLeft.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snakeHeadRight.png" beforeDir="false" afterPath="$PROJECT_DIR$/skins/snakeHeadRight.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snakeHeadUp.png" beforeDir="false" afterPath="$PROJECT_DIR$/skins/snakeHeadUp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/GameField.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/horizon/MainWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/water.png" beforeDir="false" afterPath="$PROJECT_DIR$/background/water.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/background/Background.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/res/background/Background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/background/ground.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/res/background/ground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/background/water.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/res/background/water.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eat/apple.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/res/eat/apple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eat/surprise.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/res/eat/surprise.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/SF Buttacup.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/out/res/fonts/SF Buttacup.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/Minecraft_Theme_Sweden_Calm.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/out/res/music/Minecraft_Theme_Sweden_Calm.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/META-INF/SnakeGame.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/horizon/GameField$FieldKeyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/com/horizon/GameField$FieldKeyListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/horizon/GameField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/com/horizon/GameField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/blueSnakeBody.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/res/skins/blueSnakeBody.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/blueSnakeHeadDown.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/res/skins/blueSnakeHeadDown.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/blueSnakeHeadLeft.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/res/skins/blueSnakeHeadLeft.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/blueSnakeHeadRight.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/res/skins/blueSnakeHeadRight.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/blueSnakeHeadUp.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/res/skins/blueSnakeHeadUp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/snakeBody.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/res/skins/snakeBody.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/snakeHeadDown.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/res/skins/snakeHeadDown.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/snakeHeadLeft.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/res/skins/snakeHeadLeft.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/snakeHeadRight.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/res/skins/snakeHeadRight.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/snakeHeadUp.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/res/skins/snakeHeadUp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/horizon/GameField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/horizon/GameField.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/horizon/MainWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-62">
+            <state>
               <caret column="20" selection-start-column="20" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -61,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/horizon/GameField.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="422" column="49" lean-forward="true" selection-start-line="422" selection-start-column="49" selection-end-line="422" selection-end-column="49" />
+            <state relative-caret-position="244">
+              <caret line="427" column="57" lean-forward="true" selection-start-line="427" selection-start-column="57" selection-end-line="427" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,9 +103,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="107" />
-    <option name="y" value="8" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-23" />
     <option name="width" value="683" />
     <option name="height" value="768" />
   </component>
@@ -121,39 +116,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="SnakeGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SnakeGame" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SnakeGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SnakeGame" type="462c0819:PsiDirectoryNode" />
-              <item name="background" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SnakeGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SnakeGame" type="462c0819:PsiDirectoryNode" />
-              <item name="eat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SnakeGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SnakeGame" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SnakeGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SnakeGame" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="horizon" type="462c0819:PsiDirectoryNode" />
+              <item name="SnakeGameWithOutMenu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SnakeGameWithOutMenu" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -168,17 +142,17 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Horizon\Desktop\проекты\SnakeGameWithOutMenu\out" />
+      <recent name="C:\Users\Horizon\Desktop\проекты\SnakeGameWithOutMenu\res" />
+      <recent name="C:\Users\Horizon\Desktop\проекты\SnakeGame\eat" />
+      <recent name="C:\Users\Horizon\Desktop\проекты\SnakeGame\background" />
+      <recent name="C:\Users\Horizon\Desktop\проекты\SnakeGame\fonts" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Horizon\Desktop\проекты\SnakeGame\skins" />
       <recent name="C:\Users\Horizon\Desktop\проекты\SnakeGame\src\com\company\fonts" />
       <recent name="C:\Users\Horizon\Desktop\проекты\SnakeGame\src\com\company\music" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Horizon\Desktop\проекты\SnakeGame\eat" />
-      <recent name="C:\Users\Horizon\Desktop\проекты\SnakeGame\background" />
-      <recent name="C:\Users\Horizon\Desktop\проекты\SnakeGame\fonts" />
-      <recent name="C:\Users\Horizon\Desktop\проекты\SnakeGame\music" />
-      <recent name="C:\Users\Horizon\Desktop\проекты\SnakeGame" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -258,7 +232,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Learn" order="0" weight="0.32980332" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22012103" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22314675" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -267,7 +241,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49848714" weight="0.28067484" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6096823" visible="true" weight="0.2392638" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6089259" visible="true" weight="0.2392638" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49394855" weight="0.17177914" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -276,7 +250,7 @@
       <window_info anchor="bottom" id="SonarLint" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32055214" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.3903177" side_tool="true" visible="true" weight="0.2392638" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.39107412" side_tool="true" visible="true" weight="0.2392638" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.48940998" weight="0.32668713" />
       <window_info anchor="right" id="Maven" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -311,21 +285,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dot.png" />
     <entry file="file://$PROJECT_DIR$/ground.bmp" />
-    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/snakeHeadLeft.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/snakeHeadRight.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/blueSnakeHeadDown.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/blueSnakeHeadLeft.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/blueSnakeHeadUp.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/snakeHeadLeft.png" />
+    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/snakeHeadRight.png" />
+    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/blueSnakeHeadDown.png" />
+    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/blueSnakeHeadLeft.png" />
+    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/blueSnakeHeadUp.png" />
     <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.desktop/java/awt/Font.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -379,70 +343,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/blueSnakeHeadRight.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/blueSnakeBody.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apple2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dot2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/snakeBody.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/MyTimerTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Background.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/snakeHeadDown.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/snakeHeadUp.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/horizon/fonts/SF Buttacup.ttf">
+    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/blueSnakeHeadRight.png" />
+    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/blueSnakeBody.png" />
+    <entry file="file://$PROJECT_DIR$/apple2.png" />
+    <entry file="file://$PROJECT_DIR$/dot2.png" />
+    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/snakeBody.png" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/MyTimerTask.java" />
+    <entry file="file://$PROJECT_DIR$/Background.png" />
+    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/snakeHeadDown.png" />
+    <entry file="file://$PROJECT_DIR$/src/com/horizon/skins/snakeHeadUp.png" />
+    <entry file="file://$PROJECT_DIR$/src/com/horizon/fonts/SF Buttacup.ttf" />
+    <entry file="file://$PROJECT_DIR$/out/res/fonts/SF Buttacup.ttf">
       <provider selected="true" editor-type-id="fontseditor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/fonts/SF Buttacup.ttf">
-      <provider selected="true" editor-type-id="fontseditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eat/apple.png">
+    <entry file="file://$PROJECT_DIR$/out/res/eat/apple.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/SnakeGame.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/eat/surprise.png">
+    <entry file="file://$PROJECT_DIR$/out/res/eat/surprise.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/background/water.png">
+    <entry file="file://$PROJECT_DIR$/out/res/background/water.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/background/ground.png">
+    <entry file="file://$PROJECT_DIR$/out/res/background/ground.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/horizon/MainWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-62">
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.desktop/java/awt/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -451,10 +378,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/horizon/MainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/horizon/GameField.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="422" column="49" lean-forward="true" selection-start-line="422" selection-start-column="49" selection-end-line="422" selection-end-column="49" />
+        <state relative-caret-position="244">
+          <caret line="427" column="57" lean-forward="true" selection-start-line="427" selection-start-column="57" selection-end-line="427" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
